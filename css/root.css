@@ -1,0 +1,143 @@
+header {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header h1 {
+    color: black;
+    text-transform: uppercase;
+}
+
+.container {
+    border: 10px solid rgb(68 67 62);
+    overflow: hidden;
+}
+
+.blog {
+    background-color: white;
+    float: left;
+    width: 40%;
+    height: 200px;
+    color: black;
+}
+
+.containt {
+    background-color: #dedeff;
+    float: right;
+    width: 60%;
+    height: 200px;
+}
+
+.blog h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.blog p {
+    text-align: center;
+    margin: 0px 13px;
+}
+
+.containt h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.containt p {
+    text-align: center;
+    margin: 0px 12px;
+}
+
+
+.boxPart {
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    float: left;
+    width: 33.33%;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+    font-size: 20px;
+    border: 10px solid #ffa500;
+}
+
+.red button {
+    padding: 10px 40px;
+    background-color: #bddfdf;
+}
+
+.red a {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.green {
+    background-color: green;
+    font-size: 20px;
+    border: 10px solid #ffa500;
+}
+
+.green button {
+    padding: 10px 40px;
+    background-color: #bddfdf;
+}
+
+.green a {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.blue {
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    border: 10px solid #ffa500;
+}
+
+.blue button {
+    padding: 10px 40px;
+    background-color: #bddfdf;
+}
+
+.blue a {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
